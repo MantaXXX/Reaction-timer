@@ -23,9 +23,9 @@ export default {
 </script>
 
 <style>
-  .rank {
-    font-size: 1.4em;
-    color: #0faf87,
-    font-weight: bold,
+.rank {
+  font-size: 1.4em;
+  color: #0faf87;
+  font-weight: bold;
 }
 </style>
