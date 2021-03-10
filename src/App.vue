@@ -7,6 +7,7 @@
 
 <script>
 import Block from "./components/Block.vue";
+import Result from "./components/Result.vue";
 
 export default {
   name: "App",
