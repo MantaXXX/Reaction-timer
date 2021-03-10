@@ -26,11 +26,11 @@ export default {
       this.isPlaying = true;
       this.showResult = false;
     },
-  },
-  endGame(reactionTime) {
-    this.score = reactionTime;
-    this.isPlaying = false;
-    this.showResult = true;
+    endGame(reactionTime) {
+      this.score = reactionTime;
+      this.isPlaying = false;
+      this.showResult = true;
+    },
   },
 };
 </script>
