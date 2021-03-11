@@ -24,10 +24,10 @@ export default {
         this.reactionTime += 10;
       }, 10);
     },
-  },
-  stopTimer() {
-    clearInterval(this.timer);
-    this.$emit("end", this.reactionTime);
+    stopTimer() {
+      clearInterval(this.timer);
+      this.$emit("end", this.reactionTime);
+    },
   },
 };
 </script>
